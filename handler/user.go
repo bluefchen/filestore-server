@@ -49,6 +49,7 @@ func DoSignUpHandler(c *gin.Context) {
 			"code": common.StatusRegisterFailed,
 		})
 	}
+	return
 }
 
 // SignInHandler : 登录接口
